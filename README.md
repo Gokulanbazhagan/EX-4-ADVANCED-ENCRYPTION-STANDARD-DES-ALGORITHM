@@ -10,7 +10,8 @@
   4. AES operates on a 4 × 4 column-major order array of bytes, termed the state
 
 ## PROGRAM: 
-```c
+```
+
 #include <stdio.h>
 #include <string.h>
 
@@ -25,9 +26,11 @@ for (int i = 0; i < input_len; i++) {
 }
 
 int main() {
+    
+    printf("Gokularamanan k\n");
     printf("\n\n\n\n      ***** ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM *****\n\n\n");
     
-char url[] = "GOKUL";
+char url[] = "GOKULARAMANAN";
 char key[] = "secretkey"; 
 
 printf("Original text: %s\n", url);
@@ -41,10 +44,13 @@ printf("Decrypted text: %s\n", url);
 return 0;
 }
 
+
+
 ```
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/f1b279a6-8b6f-459e-b777-e3a916232012)
+![image](https://github.com/user-attachments/assets/3e36559a-2aac-4aec-86d4-f47a0d1039a5)
+
 
 
 
